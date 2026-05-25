@@ -134,6 +134,14 @@ body
 ::-webkit-scrollbar-track{background: inherit;}
 ::-webkit-scrollbar-thumb{background: var(--text); border-radius: 2px;}
 
+/* image */
+.avatar 
+{
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 0 0 3em var(--clr-surface-tonal-a50);
+}
+
 /* barre de navigation */
 .navbar
 {
@@ -322,15 +330,13 @@ section{padding: 6rem 0;}
     border-radius: 16px;
     overflow: hidden;
     height: 100%;
-    transition: border-color .25s, transform .25s, box-shadow .25s;
+    transition: border-color .25s, transform .25s;
     padding: 1em;
 }
 
 .project-card:hover
 {
     transform: translateY(-3px);
-    /* border-color: var(--btn-contact-hover); */
-    /* box-shadow: 0 0 1em var(--bg-alt); */
 }
 
 .project-thumb 
@@ -422,7 +428,7 @@ section{padding: 6rem 0;}
 {
     background: var(--clr-primary-a12);
     border-color: var(--btn-contact-hover);
-    box-shadow: 0 0 0 3px var(--bg-alt);
+    /* box-shadow: 0 0 0 3px var(--bg-alt); */
 }
 
 .form-label 
