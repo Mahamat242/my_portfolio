@@ -331,21 +331,12 @@ section{padding: 6rem 0;}
     overflow: hidden;
     height: 100%;
     transition: border-color .25s, transform .25s;
-    padding: 1em;
+    /* padding: 1em; */
 }
 
 .project-card:hover
 {
     transform: translateY(-3px);
-}
-
-.project-thumb 
-{
-    height: 200px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 3rem;
 }
 
 .project-body { padding: 1.5rem; }
