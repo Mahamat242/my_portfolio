@@ -14,7 +14,7 @@ Welcome to the repository of my personal portfolio website. This project showcas
 * **Clean Code Structure** – Commented and organized codebase following modern best practices.
 
 * ## 🔗 Live Demo
-*You can view the live website here:  
+You can view the live website here:  
 * 👉 **https://my-portfolio-khaki-two-80.vercel.app**
 
 ---
