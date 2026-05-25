@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Haroun Mahamat — Portfolio</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="icons/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/custom.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg sticky-top">
+        <div class="container">
+            <a href="index.html" class="navbar-brand" style="font-weight: bold; color: var(--text-main);">HM<span class="dot">.</span></a>
+
+            <!-- button hamburger pour les ecrans de petites et moyennes tailles -->
+            <button class="navbar-toggler" type="button"
+                data-bs-toggle="collapse" data-bs-target="#nav_menu"
+                aria-controls="nav_menu" aria-label="menu">
+                <i class="bi bi-list fs-4"></i>
+            </button>
+
+            <div class="collapse navbar-collapse gap-4" id="nav_menu">
+                <ul class="navbar-nav gap-4 ms-auto">
+                    <li class="nav-item"><a href="#about" class="nav-link">À propos</a></li>
+                    <li class="nav-item"><a href="#project" class="nav-link">Projets</a></li>
+                    <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+                <a href="#contact" class="btn btn-brand px-4 btn-sm">Disponible -Me contacter</a>
+
+                <button class="btn btn-sm" id="theme_toggler">
+                    <i class="bi bi-moon-fill fs-5" id="theme_icon"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero fade_up">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7">
+                    <div class="hero-tag">Développeur Web</div>
+                    <h1>
+                        Bonjour, je suis <br>
+                        <span class="name">Haroun Mahamat</span>
+                    </h1>
+                    <p class="" style="color: var(--text-muted);">
+                        Développeur Web passionné, je conçois des sites 
+                        performants et sur mesure pour donner vie à vos projets 
+                        digitaux. <br>
+                        Actuellement étudiant à 
+                        l'<strong class="" style="color: var(--text-main); font-size:1.1rem; max-width:520px; line-height:1.8;">Université Cheikh Anta Diop</strong> 
+                        de Dakar en <strong class="" style="color: var(--text-main); font-size:1.1rem; max-width:520px; line-height:1.8;">Licence 2 d'informatique</strong>.
+                    </p>
+
+                    <div class="d-flex gap-3 mb-5">
+                        <a href="#project" class="btn btn-brand px-4 py-2">
+                            Voir mes projets <i class="bi bi-arrow-right"></i>
+                        </a>
+                        <a href="#contact" class="btn btn-ghost px-4 py-2">
+                            Me contacter
+                        </a>
+                    </div>
+
+                    <!-- mes statistiques -->
+                    <div class="row fade_up">
+                        <div class="col-4">
+                            <div class="stat-box">
+                                <div class="stat-number">3+</div>
+                                <div class="stat-label">projets</div>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="stat-box">
+                                <div class="stat-number">1+</div>
+                                <div class="stat-label">Ans d'exp.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <div class="hero-avatar">
+                        <img src="img/profil.png" alt="avatar" class="avatar">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- à propos -->
+    <section id="about" class="about fade_up fade_down">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5">
+                    <div class="section-tag">À propos</div>
+                    <h2 class="section-title">Développeur Web basé à Dakar.</h2>
+                    <p class="" style="color: var(--text-muted);">
+                        Spécialisé dans le développement de sites web rapides, 
+                        sécurisés et sur mesure. J'allie une rigueur technique pointue à la 
+                        propreté du code pour concevoir des solutions performantes, adaptées à 
+                        tous les écrans et optimisées pour le référencement naturel. 
+                        De la phase d'architecture technique jusqu'à la mise en ligne, 
+                        je traduis vos besoins fonctionnels en une interface fluide et robuste. 
+                        Mon objectif est de donner vie à des projets digitaux fiables qui 
+                        soutiennent durablement la croissance et la visibilité de votre activité.
+                    </p>
+
+                    <div class="d-flex gap-3 mt-4">
+                        <span class="badge rounded-pill px-3 py-2" style="background: var(--clr-primary-a12); color:var(--text-muted); border:1px solid var(--clr-primary-a10);">
+                            <i class="bi bi-geo-alt-fill"></i> Dakar, Sénégal
+                        </span>
+                        <span class="badge rounded-pill px-3 py-2" style="background: var(--clr-primary-a12); color:var(--text-muted); border:1px solid var(--clr-primary-a10);">
+                            <i class="bi bi-dot"></i> Disponible
+                        </span>
+                    </div>
+                </div>
+
+                <div class="col-lg-7">
+                    <div class="section-tag">Compétences</div>
+                    <h3 class="section-title">Stack technique</h3>
+
+                    <div class="skill-bar-wrap">
+                        <div class="skill-name"><span>HTML / CSS</span><span class="">95%</span></div>
+                        <div class="skill-track"><div class="skill-fill" style="width: 95%;"></div></div>
+                    </div>
+                    <div class="skill-bar-wrap">
+                        <div class="skill-name"><span>JavaScript</span><span>75%</span></div>
+                        <div class="skill-track"><div class="skill-fill" style="width: 75%;"></div></div>
+                    </div>
+                    <div class="skill-bar-wrap">
+                        <div class="skill-name"><span>PHP</span><span>88%</span></div>
+                        <div class="skill-track"><div class="skill-fill" style="width: 88%;"></div></div>
+                    </div>
+                    <div class="skill-bar-wrap">
+                        <div class="skill-name"><span>wordPress</span><span>90%</span></div>
+                        <div class="skill-track"><div class="skill-fill" style="width: 90%;"></div></div>
+                    </div>
+                    <div class="skill-bar-wrap">
+                        <div class="skill-name"><span>Python</span><span>70%</span></div>
+                        <div class="skill-track"><div class="skill-fill" style="width: 70%;"></div></div>
+                    </div>
+                    <div class="skill-bar-wrap">
+                        <div class="skill-name"><span>c++</span><span>70%</span></div>
+                        <div class="skill-track"><div class="skill-fill" style="width: 70%;"></div></div>
+                    </div>
+
+                    <div class="d-flex flex-wrap gap-3 mt-4">
+                        <span class="project-tag">Git & Github</span>
+                        <span class="project-tag">Responsive</span>
+                        <span class="project-tag">Accessibilité</span>
+                        <span class="project-tag">Performance Web</span>
+                        <span class="project-tag">API REST</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- projets -->
+    <section id="project">
+    <div class="container">
+        <div class="text-center mb-5">
+            <div class="section-tag justify-content-center">Projets</div>
+            <h2 class="section-title">Ce que j'ai construit.</h2>
+        </div>
+        <div class="row fade_up">
+            <!-- projet 1 -->
+            <div class="col-md-6 col-lg-4">
+                <div class="project-card">
+                    <div class="project-thumb"></div>
+                    <div class="project-body">
+                        <div class="project-tags">
+                            <span class="project-tag">bootstrap</span>
+                            <span class="project-tag">JavaScript</span>
+                            <span class="project-tag">PHP</span>
+                            <span class="project-tag">Python</span>
+                        </div>
+                        <div class="project-title">KayDeukk</div>
+                        <p class="project-desc" style="color: var(--text-muted);">
+                            Plateforme d'agence Immobilière, 
+                            responsive avec réservation et location.
+                        </p>
+                        <div class="project-links">
+                            <a href="https://github.com/Mahamat242/web-project_Kay_Deuk" class="project-link" target="_blank" rel="noopener noreferrer">
+                                <i class="bi bi-github"></i> code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <!-- contact -->
+    <section id="contact" class="contact fade_up">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5">
+                    <div class="section-tag">Contact</div>
+                    <h2 class="section-title">Travaillons ensemble.</h2>
+                    <p style="color: var(--text-muted);">
+                        Vous avez un projet en tête ? Je suis disponible pour du freelance,
+                        des collaborations et des stages. N'hésitez pas à m'écrire.
+                    </p>
+
+                    <div class="d-flex flex-column mt-4 gap-3">
+                        <div class="d-flex align-items-center gap-3">
+                            <div class="" style="width: 40px; height: 40px; background: var(--clr-primary-a12); border-radius: 10px; border: 1px solid var(--clr-primary-a10); display: flex; align-items: center; justify-content: center; color: var(--text-muted);">
+                                <i class="bi bi-envelope"></i>
+                            </div>
+                            <span class="" style="color: var(--text-muted);">harounm087@gmail.com</span>
+                        </div>
+                        <div class="d-flex d-flex align-items-center gap-3">
+                            <div class="" style="width: 40px; height: 40px; background: var(--clr-primary-a12); border-radius: 10px; border: 1px solid var(--clr-primary-a10); display: flex; align-items: center; justify-content: center; color: var(--text-muted);">
+                                <i class="bi bi-telephone"></i>
+                            </div>
+                            <span class="" style="color: var(--text-muted);">+221 76 475 23 30</span>
+                        </div>
+                        <div class="d-flex d-flex align-items-center gap-3">
+                            <div class="" style="width: 40px; height: 40px; background: var(--clr-primary-a12); border-radius: 10px; border: 1px solid var(--clr-primary-a10); display: flex; align-items: center; justify-content: center; color: var(--text-muted);">
+                                <i class="bi bi-geo-alt-fill"></i>
+                            </div>
+                            <span class="" style="color: var(--text-muted);">Dakar, Sénégal</span>
+                        </div>
+                    </div>
+
+                    <div class="d-flex gap-3 mt-4">
+                        <a href="https://github.com/Mahamat242" class="social-link" target="_blank">
+                            <i class="bi bi-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/haroun-haroun-mahamat-1885711aa/" class="social-link" target="_blank">
+                            <i class="bi bi-linkedin"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-7">
+                    <div class="">
+                        <form action="https://api.web3forms.com/submit" method="post">
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <input type="hidden" name="access_key" value="01397540-829b-417f-b1a4-cd9c15845c30">
+                                    <label for="" class="form-label">Nom</label>
+                                    <input type="text" class="form-control" placeholder="Votre nom" name="name">
+                                </div>
+                                <div class="col-md-6">
+                                    <label class="form-label">Email</label>
+                                    <input type="email" class="form-control" placeholder="votre@email.com" name="email">
+                                </div>
+                                <div class="col-12">
+                                    <label class="form-label">Sujet</label>
+                                    <input type="text" class="form-control" placeholder="Ex : Projet e-commerce">
+                                </div>
+                                <div class="col-12">
+                                    <label class="form-label">Message</label>
+                                    <textarea class="form-control" rows="5" placeholder="Décrivez votre projet ou votre demande..." name="message"></textarea>
+                                </div>
+                                <div class="col-12">
+                                    <button type="submit" class="btn btn-brand w-100 py-3">
+                                        Envoyer le message <i class="bi bi-arrow-right ms-2"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container d-flex flex-wrap justify-content-between align-items-center flex-wrap gap-3">
+            <span class="" style="color: var(--text-muted);">
+                &copy;2026, <a href="index.html" class="">Haroun Mahamat.</a>
+            </span>
+            <div class="d-flex gap-3">
+                <a href="https://github.com/Mahamat242" class="social-link" target="_blank">
+                    <i class="bi bi-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/haroun-haroun-mahamat-1885711aa/" class="social-link" target="_blank">
+                    <i class="bi bi-linkedin"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script>
+        // pour switcher en le light et le dark mode
+        const theme_toggler = document.querySelector("#theme_toggler");
+        const theme_icon = document.querySelector("#theme_icon");
+        const html = document.documentElement;
+
+        theme_toggler.addEventListener('click', () => {
+            // changer la classe en :root.dark-mode
+            html.classList.toggle('dark-mode');
+            html.style.transition = 'all .4s'
+
+            // alterner l'icone entre la lune et le soleil
+            if (html.classList.contains('dark-mode'))
+            {
+                theme_icon.className = 'bi bi-sun-fill fs-5';
+                theme_icon.style.color = '#f8fafc';
+            }else
+            {
+                theme_icon.className = 'bi bi-moon-fill fs-5';
+                theme_icon.style.color = '#0f172a';
+            }
+        }, false);
+
+        // effet d'animation lors du scroll
+        document.addEventListener("DOMContentLoaded", () => {
+            const animer_up = document.querySelectorAll(".fade_up");
+            const animer_down = document.querySelectorAll(".fade_down");
+
+            const effet = {
+                root : null,
+                rootMargin : '0px',
+                threshold : 0.2 //déclancher le mouvement à 20% de la section lors du scroll
+            }
+
+            const scroll_effet = new IntersectionObserver((entries, observer) => 
+            {
+                entries.forEach(entry => {
+                    // Si l'élément entre dans l'écran
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('visible'); // Lance l'animation CSS
+                        // observer.unobserve(entry.target);    Arrête d'observer cet élément (l'effet ne se fait qu'une fois)
+                    }else
+                    {
+                        entry.target.classList.remove('visible');
+                    }
+                });
+            }, effet);
+
+            // et donc sur chaque éléments ça donne ...
+            animer_up.forEach(element => 
+            {
+                scroll_effet.observe(element);
+            });
+
+            animer_down.forEach(element => 
+            {
+                scroll_effet.observe(element);
+            });
+        }, false);
+    </script>
+</body>
+</html>
