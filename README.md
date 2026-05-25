@@ -12,6 +12,9 @@ Welcome to the repository of my personal portfolio website. This project showcas
 * **Project Showcase** – Divided into custom development (HTML/JS/PHP OOP) and CMS solutions (WordPress/Elementor).
 * **Performance Focused** – Lightweight architecture built for ultra-fast loading times.
 * **Clean Code Structure** – Commented and organized codebase following modern best practices.
+
+* ## 🔗 Live Demo
+*You can view the live website here:  
 * 👉 **https://my-portfolio-khaki-two-80.vercel.app**
 
 ---
